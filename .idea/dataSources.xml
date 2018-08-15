@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="dasboot" uuid="d4e2cba3-8ade-49b0-a753-4f444f7e6edf">
+      <driver-ref>h2.unified</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.h2.Driver</jdbc-driver>
+      <jdbc-url>jdbc:h2:file:~/dasboot</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="newDB" uuid="80a4182f-8f1d-4f64-a255-9aefa3644504">
+      <driver-ref>h2.unified</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.h2.Driver</jdbc-driver>
+      <jdbc-url>jdbc:h2:file:~/newDB</jdbc-url>
+    </data-source>
+  </component>
+</project>
