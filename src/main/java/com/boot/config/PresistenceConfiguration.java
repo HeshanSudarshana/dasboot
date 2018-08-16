@@ -25,7 +25,7 @@ public class PresistenceConfiguration {
 //    public DataSource flywayDataSource(DataSourceProperties properties){
 //        return properties.initializeDataSourceBuilder().type(HikariDataSource.class).create().build();
 //    }
-
+//
     @Bean
     @Primary
     @ConfigurationProperties("spring.datasource")
